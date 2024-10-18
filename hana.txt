@@ -1,0 +1,50 @@
+Problem:
+You are tasked with designing a vehicle rental system.
+The system will manage different types of vehicles
+(cars and motorcycles) and customers who can rent these vehicles.
+You will need to implement:
+
+Vehicle Interface:
+
+Define a Vehicle interface with the following methods:
+String getLicensePlate()
+String getVehicleType()
+double getRentalPricePerDay()
+void printVehicleDetails()
+void printRentedBy()
+void rentVehicle(Customer customer)
+void returnVehicle(Customer customer)
+
+Car and Motorcycle Classes:
+
+Create two abstract classes, Car and Motorcycle,
+that implement the Vehicle interface. These classes should:
+Implement the necessary methods from the Vehicle interface.
+Store basic vehicle-related information such
+as license plate, vehicle type, and rental price.
+Maintain a list of customers who have rented
+the vehicles using an array or ArrayList.
+
+Customer Class:
+
+Define a Customer class to store basic customer
+information such as name, age, and customer ID.
+
+
+Vehicle Implementations:
+
+Create two concrete classes:
+
+Sedan, which extends Car.
+SportBike, which extends Motorcycle.
+Each class should define specific vehicle-related
+fields and implement any abstract methods.
+
+
+Main Program:
+
+In the main program, create 10 instances of the Customer class and assign some of them to rent either a Sedan or a SportBike.
+After renting and returning some vehicles, print out the details of the vehicles and which customers have rented them.
+Upload your codes to github
+
+deadline :6.13pm
