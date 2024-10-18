@@ -4,6 +4,6 @@ public interface Vehicle {
     double getRentalPricePerDay();
     void printVehicleDetails();
     void printRentedBy();
-    //void rentVehicle(Customer customer);
-    //void returnVehicle(Customer customer);
+    void rentVehicle(Customer customer);
+    void returnVehicle(Customer customer);
 }

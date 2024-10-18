@@ -8,4 +8,25 @@ public class Customer {
         this.customerId =customerId;
 
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", customerId='" + customerId + '\'' +
+                '}';
+    }
 }
